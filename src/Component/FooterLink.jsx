@@ -5,6 +5,7 @@ const FooterLink = ({ arrayOfName, isIcon = false }) => {
   return (
     <ul className="space-y-4 flex flex-col justify-center items-center md:items-start">
       {arrayOfName.map((name, index) => {
+        const imagePath = `/src/assets/${iconPath[index - 1]}.png`;
         if (index === 0) {
           return (
             <h2 key={index} className="font-bold text-2xl">
@@ -17,7 +18,7 @@ const FooterLink = ({ arrayOfName, isIcon = false }) => {
               <a href="" className="flex items-center gap-2">
                 {isIcon ? (
                   <img
-                    src={`/src/assets//${iconPath[index - 1]}.png`}
+                    src={imagePath}
                     alt=""
                     className=" w-[20px] h-[20px]"
                   />

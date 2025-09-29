@@ -2,6 +2,7 @@ import React from "react";
 
 const CustomerCard = (issue, stateChange) => {
   const date = new Date(issue.createdAt);
+  const imagePath = `/src/assets/calendar.png`;
   issue.createdAt = date.toLocaleDateString("en-US", {
     year: "numeric",
     month: "short",
@@ -55,7 +56,7 @@ const CustomerCard = (issue, stateChange) => {
         <div className="space-x-4 flex justify-between">
           <span className="font-medium">{issue.customer}</span>
           <span className="flex items-center gap-2">
-            <img src="/src/assets/calendar.png" alt="" /> {issue.createdAt}
+            <img src={imagePath} alt="" /> {issue.createdAt}
           </span>
         </div>
       </div>
