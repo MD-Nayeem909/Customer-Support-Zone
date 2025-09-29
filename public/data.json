@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issue",
+    "description": "Customer unable to log into their account.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-10T09:30:00Z"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failure",
+    "description": "Payment declined during checkout process.",
+    "customer": "Sarah Lee",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-09-11T14:20:00Z"
+  },
+  {
+    "id": 1003,
+    "title": "Account Locked",
+    "description": "User account locked after multiple failed login attempts.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-12T08:15:00Z"
+  },
+  {
+    "id": 1004,
+    "title": "Refund Request",
+    "description": "Customer requested refund for a duplicate charge.",
+    "customer": "Emily Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-13T11:45:00Z"
+  },
+  {
+    "id": 1005,
+    "title": "Shipping Delay",
+    "description": "Customer reported order not delivered within promised time.",
+    "customer": "David Smith",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-14T13:00:00Z"
+  },
+  {
+    "id": 1006,
+    "title": "Product Defect",
+    "description": "Item received was defective and not working.",
+    "customer": "Anna Wilson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-15T15:20:00Z"
+  },
+  {
+    "id": 1007,
+    "title": "Password Reset",
+    "description": "Customer requested a password reset link.",
+    "customer": "James Anderson",
+    "priority": "Low",
+    "status": "In Progress",
+    "createdAt": "2025-09-15T18:40:00Z"
+  },
+  {
+    "id": 1008,
+    "title": "Feature Request",
+    "description": "Customer suggested adding dark mode to the app.",
+    "customer": "Sophia Martinez",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2025-09-16T10:10:00Z"
+  },
+  {
+    "id": 1009,
+    "title": "Incorrect Billing",
+    "description": "Customer charged higher than advertised price.",
+    "customer": "William Harris",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2025-09-17T12:25:00Z"
+  },
+  {
+    "id": 1010,
+    "title": "Subscription Cancelation",
+    "description": "Customer unable to cancel subscription via dashboard.",
+    "customer": "Olivia Clark",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-09-18T09:55:00Z"
+  },
+  {
+    "id": 1011,
+    "title": "UI Bug Report",
+    "description": "Submit button not working on feedback form.",
+    "customer": "Ethan Lewis",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-18T14:35:00Z"
+  },
+  {
+    "id": 1012,
+    "title": "Order Cancelation",
+    "description": "Customer wants to cancel an order before shipping.",
+    "customer": "Isabella Hall",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2025-09-19T11:15:00Z"
+  },
+  {
+    "id": 1013,
+    "title": "App Crash Issue",
+    "description": "Mobile app crashes on startup for Android 14.",
+    "customer": "Benjamin Young",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2025-09-20T08:50:00Z"
+  },
+  {
+    "id": 1014,
+    "title": "Email Notification Error",
+    "description": "Customer not receiving order confirmation emails.",
+    "customer": "Mia Scott",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-09-21T16:40:00Z"
+  },
+  {
+    "id": 1015,
+    "title": "Duplicate Account Merge",
+    "description": "Customer requested merging two duplicate accounts.",
+    "customer": "Alexander King",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-09-22T10:05:00Z"
+  }
+]

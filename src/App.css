@@ -1,0 +1,24 @@
+.hero {
+	position: relative;
+	background: linear-gradient(to bottom, #632ee3, #9f62f2);
+	overflow: hidden;
+}
+
+.hero::after {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: url('assets/vector1.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.hero::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: url('assets/vector1.png');
+	transform: scaleX(-1);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
